@@ -5,6 +5,8 @@ class Solution:
         # code here
         # repeat= (sum(arr)-n n+1//2 + sum(arr[i]^2)-i^2) // 2
         # missing = sum(arr)-nn+1//2
+        # subtract array sum to expected
+        # subtract squares of elements of array to squares of elements from 1->n
         n=len(arr)
         degree1=n*(n+1)//2
         degree2=n*(n+1)*(2*n+1)//6
