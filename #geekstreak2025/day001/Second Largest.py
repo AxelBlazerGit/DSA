@@ -1,3 +1,4 @@
+# shortened url: https://git.new/s6kTac5
 #User function Template for python3
 class Solution:
     def getSecondLargest(self, arr):
