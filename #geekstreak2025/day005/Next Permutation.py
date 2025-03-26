@@ -4,11 +4,6 @@ class Solution:
     
     def nextPermutation(self, arr):
         # code here
-        
-        # find first decreasing element from the right [i]
-        # find smallest element larger than arr[i] to swap
-        # reverse after swapped index [i+1] to [end]
-        
         def rev(s,e):
             while s<e:
                 arr[s],arr[e]=arr[e],arr[s]
